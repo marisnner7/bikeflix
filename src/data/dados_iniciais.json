@@ -2,16 +2,16 @@
   "categorias": [
     {
       "titulo": "DIY",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "link": "https://www.youtube.com/watch?v=BSnPqvsFpJM",
       "cor": "#6BD1FF",
       "link_extra": {
         "text": "Mão na massa, fabrique você mesmo",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "url": "https://www.youtube.com/watch?v=BSnPqvsFpJM"
       },
       "videos": [
         {
-          "titulo": "Painel de ferramentas para bike. Como montar o seu. Pedaleria.",
-          "url": "https://www.youtube.com/watch?v=M7bIBGdE5G0&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3"
+          "titulo": "Cycling's speed secrets | The Economist",
+          "url": "https://www.youtube.com/watch?v=BSnPqvsFpJM"
         },
         {
           "titulo": "Como fazer um porta objetos para a bike a custo zero? Pedaleria",
@@ -74,110 +74,110 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Competições de Bike pelo mundo",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Vídeos de tirar o fôlego, adrenalina pura",
+        "url": "https://www.youtube.com/watch?v=N-ZO2ILecoE"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Top 10 Cycling WOW moments!",
+          "url": "https://www.youtube.com/watch?v=38XmKNcgjSU"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Guiness World Record Downhill CHALLENGE Medellin Comuna 13",
+          "url": "https://www.youtube.com/watch?v=xOU5qif6uzg"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Vittorio Brumotti goes crazy in Livigno",
+          "url": "https://www.youtube.com/watch?v=nYey3PI3gqM"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "GoPro: KC Deane - RedBull Skygate, China 7.21.16 - Bike",
+          "url": "https://www.youtube.com/watch?v=xh4DwSNfGk8"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Tour de France",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Tour de France 2019 Stage 18 LAST 30 KM | Cycling planet",
+          "url": "https://www.youtube.com/watch?v=GWz6TxCP-hQ"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Why the Tour de France is so brutal",
+          "url": "https://www.youtube.com/watch?v=ZacOS8NBK6U"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Tour de France 2019: Top 10 moments | NBC Sports",
+          "url": "https://www.youtube.com/watch?v=UfHddpDB1T8"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Best Moments - Tour de France 2019",
+          "url": "https://www.youtube.com/watch?v=vjci1lf0fj4"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Swift ",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Ciclying Virtually",
+        "url": "https://www.youtube.com/watch?v=3MmPjyuA4S4"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
+          "titulo": "Como Funciona o ZWIFT Parte 1: Primeiros passos | PEDALENTO",
           "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Zwift - How to get setup on any budget",
+          "url": "https://www.youtube.com/watch?v=C0myg4TLkZc"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "What is Zwift? A Quick Overview | Zwift",
+          "url": "https://www.youtube.com/watch?v=LBXnYW6yX_Q"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Zwift British National Qualifers Race *hardest race on Zwift",
+          "url": "https://www.youtube.com/watch?v=mn5Br71XXtY"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Top 10 HARDEST CLIMBS On Zwift",
+          "url": "https://www.youtube.com/watch?v=sZUYXqrL7-A"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Speed Bikes",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "● TOP 3 ● FASTEST BIKE SPEED",
+        "url": "https://www.youtube.com/watch?v=374BMNzbFEk"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Cycling's speed secrets | The Economist",
+          "url": "https://www.youtube.com/watch?v=BSnPqvsFpJM"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "BIKE SPEED - 8 DICAS PARA INICIANTE COMPRAR BIKE SPEED | Café na Trilha",
+          "url": "https://www.youtube.com/watch?v=fL8Hf-Uve_A"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Opinião sobre a Caloi Strada Racing 2018",
+          "url": "https://www.youtube.com/watch?v=3NeFdcAJlXk"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Pedaleria - Como trocar marchas na bike de estrada",
+          "url": "https://www.youtube.com/watch?v=YdFRxuqrrUU&t=363s"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "BIKE SPEED RECORD 90MPH / 145 KMS /HORA",
+          "url": "https://www.youtube.com/watch?v=BSyV0jL6c1c"
         }
       ]
     }

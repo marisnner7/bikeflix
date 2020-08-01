@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,46 +11,23 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handleChange(e) {
-    setValue(
-      e.target.getAttribute('name'),
-      e.target.value,
-    );
-  }
 
   useEffect(() => {
-    console.log('oi');
-    const url ='http://localhost:8080/categoria';
-    fetch(url) 
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080'
+      : 'https://bikeflix.herokuapp.com/categorias';
+    // E a ju ama variáveis
+    fetch(URL_TOP)
       .then(async (resp) => {
-        const anws = await resp.json();
+        const resposta = await resp.json();
         setCategorias([
-          ...anws,
-        ])
-      })
-
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: "MTB",
-    //       descrição: "melhores competições de MTB",
-    //       cor: "azul"
-    //     },
-
-    //   ]);
-    // },)
+          ...resposta,
+        ]);
+      });
   }, []);
 
   return (
@@ -59,20 +37,19 @@ function CadastroCategoria() {
         {values.nome}
       </h1>
 
-      <form onSubmit={function handleSubmit(e) {
-        e.preventDefault();
+      <form onSubmit={function handleSubmit(infosDoEvento) {
+        infosDoEvento.preventDefault();
         setCategorias([
           ...categorias,
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
         <FormField
           label="Nome da Categoria"
-          type="text"
           name="nome"
           value={values.nome}
           onChange={handleChange}
@@ -85,6 +62,7 @@ function CadastroCategoria() {
           value={values.descricao}
           onChange={handleChange}
         />
+
         <FormField
           label="Cor"
           type="color"
@@ -98,10 +76,17 @@ function CadastroCategoria() {
         </Button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          {/* Cargando... */}
+          Loading...
+        </div>
+      )}
+
       <ul>
-        {categorias.map((categoria, index) => (
-          <li key={`${categoria}${index}`}>
-            {categoria.nome}
+        {categorias.map((categoria) => (
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>

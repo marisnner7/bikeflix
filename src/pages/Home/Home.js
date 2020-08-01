@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Menu from '../../components/menu'
 import BannerMain from '../../components/BannerMain'
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
-
 import dadosIniciais from '../../data/dados_iniciais.json'
+import categoriasRepository from '../../repositories/categories'
+
 function Home() {
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        console.log(categoriasComVideos)
+      });
+  })
   return (
     <div style={{ background: "#141414" }}>
       <Menu />
@@ -13,7 +21,7 @@ function Home() {
        <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoDescription={"Melhores Vídeos de Ciclismo no conforto do seu lar"}
       /> 
 
       <Carousel
