@@ -5,6 +5,18 @@
       "nome": "MTB",
       "descrição": "melhores competições de MTB",
       "cor": "azul"
+    },
+    {
+      "id": 2,
+      "nome": "Speed",
+      "descrição": "melhores bikes pra vc escolher",
+      "cor": "verde"
+    },
+    {
+      "id": 3,
+      "nome": "DIY",
+      "descrição": "fabrique vc mesmo",
+      "cor": "laranja"
     }
   ]
 }
