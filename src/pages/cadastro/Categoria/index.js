@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
@@ -26,6 +26,31 @@ function CadastroCategoria() {
       e.target.value,
     );
   }
+
+  useEffect(() => {
+    console.log('oi');
+    const url ='http://localhost:8080/categoria';
+    fetch(url) 
+      .then(async (resp) => {
+        const anws = await resp.json();
+        setCategorias([
+          ...anws,
+        ])
+      })
+
+    // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //     {
+    //       id: 1,
+    //       nome: "MTB",
+    //       descrição: "melhores competições de MTB",
+    //       cor: "azul"
+    //     },
+
+    //   ]);
+    // },)
+  }, []);
 
   return (
     <PageDefault>
