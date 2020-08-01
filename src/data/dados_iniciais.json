@@ -1,75 +1,75 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "DIY",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
+        "text": "Mão na massa, fabrique você mesmo",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Painel de ferramentas para bike. Como montar o seu. Pedaleria.",
+          "url": "https://www.youtube.com/watch?v=M7bIBGdE5G0&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Como fazer um porta objetos para a bike a custo zero? Pedaleria",
+          "url": "https://www.youtube.com/watch?v=cN5dLClbvfw&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=2"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Como fazer um suporte de parede para bike? Pedaleria",
+          "url": "https://www.youtube.com/watch?v=7Ji1UzYxXI8&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=3"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Tubeless. Como montar o pneu sem câmara na sua bike. Pedaleria",
+          "url": "https://www.youtube.com/watch?v=-ACFW_kZ9jg&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=8"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Suporte de garrafa na bike que não tem os parafusos. Qual o jeito certo de instalar? PEDALERIA",
+          "url": "https://www.youtube.com/watch?v=0GBPvMU_c3Q&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=4"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Pedaleria - Faça o seu próprio suporte ou cavalete de manutenção para bike",
+          "url": "https://www.youtube.com/watch?v=QEcIMwuDHiA&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=5"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Como montar uma bike do zero, peça a peça. PARTE 1. Pedaleria",
+          "url": "https://www.youtube.com/watch?v=gROCz9uMnKE&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=6"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Como raiar roda de bicicleta? Raiando e centrando uma roda de bike PEDALERIA",
+          "url": "https://www.youtube.com/watch?v=miB_lJ0nhcY&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=7"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Moutain Bike - MTB",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Vistas de tirar o fôlego. Melhores competições pelo mundo",
+        "url": "https://www.youtube.com/results?search_query=+mountain+bike"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "We bit off MUCH more than we could pedal | Mountain Biking Downieville",
+          "url": "https://www.youtube.com/watch?v=xQTsfbUvWc4"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Road to Rampage - The Final Destination - Ep. 6",
+          "url": "https://www.youtube.com/watch?v=8XlYXl111XI"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "How to Buy a Mountain Bike",
+          "url": "https://www.youtube.com/watch?v=yotOZVELSMc"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "The butt-puckering boardwalks of Ft. Bill | Mountain biking Top Chief at Fort William",
+          "url": "https://www.youtube.com/watch?v=sAOhdtTVteo"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Mountain Bike Climbing Mistakes | How To Climb Steeper Climbs On Your MTB",
+          "url": "https://www.youtube.com/watch?v=CIcu7UrpPo4"
         }
       ]
     },
