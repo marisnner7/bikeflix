@@ -1,0 +1,10 @@
+{
+  "categoria": [
+    {
+      "id": 1,
+      "nome": "MTB",
+      "descrição": "melhores competições de MTB",
+      "cor": "azul"
+    }
+  ]
+}
