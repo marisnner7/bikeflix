@@ -17,6 +17,12 @@
       "nome": "DIY",
       "descrição": "fabrique vc mesmo",
       "cor": "laranja"
+    },
+    {
+      "id": 4,
+      "nome": "Tour la France",
+      "descrição": "melhores momentos da comepticao mais alucinante",
+      "cor": "verde"
     }
   ]
 }
