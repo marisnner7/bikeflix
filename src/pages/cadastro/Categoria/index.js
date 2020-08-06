@@ -6,21 +6,22 @@ import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
-  const valoresIniciais = {
+  const initialValues = {
     nome: '',
     descricao: '',
     cor: '',
   };
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  // const [values, setValues] = useState();
+
+  const { handleChange, values, clearForm } = useForm(initialValues);
 
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080'
+      ? 'http://localhost:8080/categorias'
       : 'https://bikeflix.herokuapp.com/categorias';
-    // E a ju ama variáveis
     fetch(URL_TOP)
       .then(async (resp) => {
         const resposta = await resp.json();
@@ -37,8 +38,8 @@ function CadastroCategoria() {
         {values.nome}
       </h1>
 
-      <form onSubmit={function handleSubmit(infosDoEvento) {
-        infosDoEvento.preventDefault();
+      <form onSubmit={function handleSubmit(e) {
+        e.preventDefault();
         setCategorias([
           ...categorias,
           values,
@@ -78,15 +79,14 @@ function CadastroCategoria() {
 
       {categorias.length === 0 && (
         <div>
-          {/* Cargando... */}
           Loading...
         </div>
       )}
 
       <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.titulo}`}>
-            {categoria.titulo}
+        {categorias.map((categoria, index) => (
+          <li key={`${categoria}${index}`}>
+            {categoria.nome}
           </li>
         ))}
       </ul>

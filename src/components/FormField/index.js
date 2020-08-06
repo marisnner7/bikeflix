@@ -20,15 +20,12 @@ Label.Text = styled.span`
   position: absolute; 
   top: 0;
   left: 16px;
-  
   display: flex;
   align-items: center;
-  
   transform-origin: 0% 0%;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  
   transition: .1s ease-in-out;
 `;
 
@@ -39,19 +36,16 @@ const Input = styled.input`
   width: 100%;
   height: 57px;
   font-size: 18px;
-  
   outline: 0;
   border: 0;
   border-top: 4px solid transparent;
   border-bottom: 4px solid #53585D;
-  
   padding: 16px 16px;
   margin-bottom: 45px;
-  
   resize: none;
   border-radius: 4px;
   transition: border-color .3s;
-  
+
   &:focus {
     border-bottom-color: var(--primary);
   }
@@ -79,7 +73,6 @@ function FormField({
   return (
     // eslint-disable-next-line react/jsx-filename-extension
     <FormFieldWrapper>
-
       <Label>
         <Input
           as={tag}
@@ -111,4 +104,5 @@ FormField.propTypes = {
   value: PropTypes.string,
   onChange: PropTypes.func,
 };
+
 export default FormField;
