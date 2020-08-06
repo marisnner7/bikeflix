@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react'
-import PageDefault from '../../components/PageDefault'
-import Button from '../../components/Button'
-import { Link } from 'react-router-dom'
-function pagina404(){
-  return(
-    <PageDefault>
-      <Fragment>
+import React from 'react';
+import { Link } from 'react-router-dom';
+import PageDefault from '../../components/PageDefault';
+import Button from '../../components/Button';
 
-        <div>Pagina não encontrada </div>
+function pagina404() {
+  return (
+    <PageDefault>
+
+      <div>Pagina não encontrada </div>
 
       <Button>
 
@@ -15,12 +15,9 @@ function pagina404(){
           Ir para home
         </Link>
       </Button>
-    </Fragment>
-      </PageDefault>
+    </PageDefault>
 
-  
-    
-  )
+  );
 }
 
 export default pagina404;

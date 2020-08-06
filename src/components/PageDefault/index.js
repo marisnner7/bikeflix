@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
 import Menu from '../menu';
 import Footer from '../Footer';
-import styled from 'styled-components'
-//import { Fragment } from 'react';
-
+// import { Fragment } from 'react';
 
 const Main = styled.main`
   background-color: var(--black);
@@ -12,21 +11,20 @@ const Main = styled.main`
   padding-top: 50px;
   padding-left: 5%;
   padding-right: 5%;
-`
+`;
 
-function PageDefault( {children}){
-  return(
+function PageDefault({ children }) {
+  return (
     // <Fragment>
     <>
-        <Menu />
-          <Main>
-            {children}
-
-          </Main>
-        <Footer/>
+      <Menu />
+        <Main>
+          {children}
+        </Main>
+      <Footer />
     </>
-    
-    );
+
+  );
 }
 
 export default PageDefault;

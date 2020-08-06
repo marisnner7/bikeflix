@@ -11,9 +11,11 @@ function Footer() {
         Orgulhosamente criado por
         {' '}
         <a href="https://marianneag.herokuapp.com/">
-          Marianne 
+          Marianne
         </a>
-        {' '} durante Imersão React da Alura
+        {' '}
+        {' '}
+        durante Imersão React da Alura
       </p>
     </FooterBase>
   );
