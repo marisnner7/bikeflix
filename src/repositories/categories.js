@@ -9,7 +9,7 @@ function getAll() {
         const resposta = await respostaDoServidor.json();
         return resposta;
       }
-
+      throw new Error('Não foi possivel pegar a url')
     });
 }
 
