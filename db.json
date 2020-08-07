@@ -1,28 +1,185 @@
 {
   "categorias": [
     {
-      "id": 1,
-      "nome": "MTB",
-      "descrição": "melhores competições de MTB",
-      "cor": "azul"
+      "titulo": "DIY",
+      "link": "https://www.youtube.com/watch?v=BSnPqvsFpJM",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Mão na massa",
+        "url": "https://www.youtube.com/watch?v=BSnPqvsFpJM"
+      },
+      "videos": [
+        {
+          "titulo": "Cycling's speed secrets | The Economist",
+          "url": "https://www.youtube.com/watch?v=BSnPqvsFpJM"
+        },
+        {
+          "titulo": "Como fazer um porta objetos para a bike a custo zero? Pedaleria",
+          "url": "https://www.youtube.com/watch?v=cN5dLClbvfw&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=2"
+        },
+        {
+          "titulo": "Como fazer um suporte de parede para bike? Pedaleria",
+          "url": "https://www.youtube.com/watch?v=7Ji1UzYxXI8&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=3"
+        },
+        {
+          "titulo": "Tubeless. Como montar o pneu sem câmara na sua bike. Pedaleria",
+          "url": "https://www.youtube.com/watch?v=-ACFW_kZ9jg&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=8"
+        },
+        {
+          "titulo": "Suporte de garrafa na bike que não tem os parafusos. Qual o jeito certo de instalar? PEDALERIA",
+          "url": "https://www.youtube.com/watch?v=0GBPvMU_c3Q&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=4"
+        },
+        {
+          "titulo": "Pedaleria - Faça o seu próprio suporte ou cavalete de manutenção para bike",
+          "url": "https://www.youtube.com/watch?v=QEcIMwuDHiA&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=5"
+        },
+        {
+          "titulo": "Como montar uma bike do zero, peça a peça. PARTE 1. Pedaleria",
+          "url": "https://www.youtube.com/watch?v=gROCz9uMnKE&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=6"
+        },
+        {
+          "titulo": "Como raiar roda de bicicleta? Raiando e centrando uma roda de bike PEDALERIA",
+          "url": "https://www.youtube.com/watch?v=miB_lJ0nhcY&list=PLSwmP63XbUG2DfbWbrcKQLdOdbvFK8Rb3&index=7"
+        }        
+      ]
     },
     {
-      "id": 2,
-      "nome": "Speed",
-      "descrição": "melhores bikes pra vc escolher",
-      "cor": "verde"
+      "titulo": "Moutain Bike - MTB",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Vistas de tirar o fôlego. Melhores competições pelo mundo",
+        "url": "https://www.youtube.com/results?search_query=+mountain+bike"
+      },
+      "videos": [
+        {
+          "titulo": "We bit off MUCH more than we could pedal | Mountain Biking Downieville",
+          "url": "https://www.youtube.com/watch?v=xQTsfbUvWc4"
+        },
+        {
+          "titulo": "Road to Rampage - The Final Destination - Ep. 6",
+          "url": "https://www.youtube.com/watch?v=8XlYXl111XI"
+        },
+        {
+          "titulo": "How to Buy a Mountain Bike",
+          "url": "https://www.youtube.com/watch?v=yotOZVELSMc"
+        },
+        {
+          "titulo": "The butt-puckering boardwalks of Ft. Bill | Mountain biking Top Chief at Fort William",
+          "url": "https://www.youtube.com/watch?v=sAOhdtTVteo"
+        }, 
+        {
+          "titulo": "Mountain Bike Climbing Mistakes | How To Climb Steeper Climbs On Your MTB",
+          "url": "https://www.youtube.com/watch?v=CIcu7UrpPo4"
+        }
+      ]
     },
     {
-      "id": 3,
-      "nome": "DIY",
-      "descrição": "fabrique vc mesmo",
-      "cor": "laranja"
+      "titulo": "Competições de Bike pelo mundo",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Vídeos de tirar o fôlego, adrenalina pura",
+        "url": "https://www.youtube.com/watch?v=N-ZO2ILecoE"
+      },
+      "videos": [
+        {
+          "titulo": "Top 10 Cycling WOW moments!",
+          "url": "https://www.youtube.com/watch?v=38XmKNcgjSU"
+        },
+        {
+          "titulo": "Guiness World Record Downhill CHALLENGE Medellin Comuna 13",
+          "url": "https://www.youtube.com/watch?v=xOU5qif6uzg"
+        },
+        {
+          "titulo": "Vittorio Brumotti goes crazy in Livigno",
+          "url": "https://www.youtube.com/watch?v=nYey3PI3gqM"
+        },
+        {
+          "titulo": "GoPro: KC Deane - RedBull Skygate, China 7.21.16 - Bike",
+          "url": "https://www.youtube.com/watch?v=xh4DwSNfGk8"
+        }
+      ]
     },
     {
-      "id": 4,
-      "nome": "Tour la France",
-      "descrição": "melhores momentos da comepticao mais alucinante",
-      "cor": "verde"
+      "titulo": "Tour de France",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Tour de France 2019 Stage 18 LAST 30 KM | Cycling planet",
+          "url": "https://www.youtube.com/watch?v=GWz6TxCP-hQ"
+        },
+        {
+          "titulo": "Why the Tour de France is so brutal",
+          "url": "https://www.youtube.com/watch?v=ZacOS8NBK6U"
+        },
+        {
+          "titulo": "Tour de France 2019: Top 10 moments | NBC Sports",
+          "url": "https://www.youtube.com/watch?v=UfHddpDB1T8"
+        },
+        {
+          "titulo": "Best Moments - Tour de France 2019",
+          "url": "https://www.youtube.com/watch?v=vjci1lf0fj4"
+        }
+      ]
+    },
+    {
+      "titulo": "Swift ",
+      "cor": "red",
+      "link_extra": {
+        "text": "Ciclying Virtually",
+        "url": "https://www.youtube.com/watch?v=3MmPjyuA4S4"
+      },
+      "videos": [
+        {
+          "titulo": "Como Funciona o ZWIFT Parte 1: Primeiros passos | PEDALENTO",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Zwift - How to get setup on any budget",
+          "url": "https://www.youtube.com/watch?v=C0myg4TLkZc"
+        },
+        {
+          "titulo": "What is Zwift? A Quick Overview | Zwift",
+          "url": "https://www.youtube.com/watch?v=LBXnYW6yX_Q"
+        },
+        {
+          "titulo": "Zwift British National Qualifers Race *hardest race on Zwift",
+          "url": "https://www.youtube.com/watch?v=mn5Br71XXtY"
+        },
+        {
+          "titulo": "Top 10 HARDEST CLIMBS On Zwift",
+          "url": "https://www.youtube.com/watch?v=sZUYXqrL7-A"
+        }
+      ]
+    },
+    {
+      "titulo": "Speed Bikes",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "● TOP 3 ● FASTEST BIKE SPEED",
+        "url": "https://www.youtube.com/watch?v=374BMNzbFEk"
+      },
+      "videos": [
+        {
+          "titulo": "Cycling's speed secrets | The Economist",
+          "url": "https://www.youtube.com/watch?v=BSnPqvsFpJM"
+        },
+        {
+          "titulo": "BIKE SPEED - 8 DICAS PARA INICIANTE COMPRAR BIKE SPEED | Café na Trilha",
+          "url": "https://www.youtube.com/watch?v=fL8Hf-Uve_A"
+        },
+        {
+          "titulo": "Opinião sobre a Caloi Strada Racing 2018",
+          "url": "https://www.youtube.com/watch?v=3NeFdcAJlXk"
+        },
+        {
+          "titulo": "Pedaleria - Como trocar marchas na bike de estrada",
+          "url": "https://www.youtube.com/watch?v=YdFRxuqrrUU&t=363s"
+        },
+        {
+          "titulo": "BIKE SPEED RECORD 90MPH / 145 KMS /HORA",
+          "url": "https://www.youtube.com/watch?v=BSyV0jL6c1c"
+        }
+      ]
     }
   ]
 }
