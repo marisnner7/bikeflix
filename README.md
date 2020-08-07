@@ -1,6 +1,6 @@
 ![bikeflix](bikeflix.png)
 
-Plataforma para visualização de vídeos relativos a ciclismo.
+# Plataforma para visualização de vídeos relativos a ciclismo.
 Desenvolvido por Marianne durante a Imersão React da Alura.
 
 Executar o projeto
